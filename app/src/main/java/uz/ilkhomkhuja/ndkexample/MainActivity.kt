@@ -69,12 +69,12 @@ class MainActivity : AppCompatActivity() {
      * A native method that is implemented by the 'ndkexample' native library,
      * which is packaged with this application.
      */
-    external fun stringFromJNI(): String
-    external fun secondStringFromJNI(): String
+    private external fun stringFromJNI(): String
+    private external fun secondStringFromJNI(): String
     private external fun add(a: Int, b: Int): Int
     private external fun sub(a: Int, b: Int): Int
     private external fun mult(a: Int, b: Int): Int
-    external fun div(a: Int, b: Int): Int
+    private external fun div(a: Int, b: Int): Int
 
     companion object {
         // Used to load the 'ndkexample' library on application startup.
