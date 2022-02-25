@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NDK Example</string>
+    <string name="next">Next</string>
+    <string name="equal">=</string>
+</resources>
